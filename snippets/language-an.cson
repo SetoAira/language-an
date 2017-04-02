@@ -1,0 +1,22 @@
+'.source.airnovel':
+	'add_lay':
+		'prefix': 'add_lay'
+		'body': '[add_lay layer=$1 class=$2]$0'
+	'let':
+		'prefix': 'let'
+		'body': '[let name=$1 text=$2]$0'
+	'if':
+		'prefix': 'if'
+		'body': '[if exp="$1"]\n\t$2\n[endif]'
+	'elsif':
+		'prefix': 'elsif'
+		'body': '[elsif exp="$1"]\n\t$2'
+	'else':
+		'prefix': 'else'
+		'body': '[else]\n\t$1'
+	'macro':
+		'prefix': 'macro'
+		'body': '[macro name=$1]\n\t$2\n[endmacro]'
+	'lay':
+		'prefix': 'lay'
+		'body': '[lay layer=$1 ]'

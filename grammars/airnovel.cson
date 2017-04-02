@@ -1,0 +1,48 @@
+fileTypes: [
+  "an"
+]
+name: "AIRNovel"
+scopeName: 'source.airnovel'
+patterns: [
+  {
+    match: "(?:\\b(true|false|int|uint|bool|@?str|fore|back|both)\\b)"
+    name: "constant.language.an"
+  }
+  {
+    match: "(?<=class=)(?:txt|grp|htm|mov)\\b"
+    name: "constant.language.an"
+  }
+  {
+    match: "\\[\\S+(?:\\b\\])?|\\]"
+    name: "entity.name.tag.an"
+  }
+  {
+    match: ";.+$"
+    name: "comment.an"
+  }
+  {
+    match: "&\\S+?&"
+    name: "string.source.regexp.an"
+  }
+  {
+    match: "^&.+?=.+?(?:=(int|str|bool|uint))?$"
+    name: "constant.character.escape.an"
+  }
+  {
+    match: "^\\*.+$"
+    name: "support.type.property-name.an"
+  }
+  {
+    match: "(\"|').+?\\1"
+    name: "string.an"
+  }
+  {
+    match: "[\\w_]+(?==)"
+    name: "entity.name.class.an"
+  }
+  {
+    match: "\\b[\\d\\.]+\\b"
+    name: "constant.numeric.an"
+  }
+
+]

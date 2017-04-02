@@ -1,0 +1,14 @@
+'.source.airnovel':
+  'editor':
+    'commentStart': ';'
+    'commentEnd': '\\n'
+    'increaseIndentPattern': '''(?x)
+      \\[macro\\b
+      |\\[(?:if|elsif|else)\\b
+    '''
+    'decreaseIndentPattern': '''(?x)
+      ^\\s*
+      (\\[(?:endmacro|endif|else)\\]
+      |\\[elsif
+      )
+    '''
