@@ -2,7 +2,7 @@
   "name": "language-an",
   "version": "0.0.0",
   "description": "Syntax highlighting for AIRnovel",
-  "repository": "https://github.com/atom/language-an",
+  "repository": "https://github.com/SetoAira/language-an",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
