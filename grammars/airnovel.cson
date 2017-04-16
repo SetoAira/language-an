@@ -5,7 +5,7 @@ name: "AIRNovel"
 scopeName: 'source.airnovel'
 patterns: [
   {
-    match: "(?:\\b(true|false|int|uint|bool|@?str|fore|back|both)\\b)"
+    match: "(?:\\b(true|false|int|uint|bool|num|@?str|fore|back|both)\\b)"
     name: "constant.language.an"
   }
   {

@@ -7,5 +7,9 @@ AIRNovel用シンタックスハイライト。
 スクリーンショットの使用テーマは、[JPcastle-light](https://github.com/SetoAira/jpcastle-light-syntax)です。
 
 ## snippets
-All tags (without one char tags) in snippets.  
-1文字のタグを除く、全てのタグをsnippetsに登録しています。
+[macro][endmacro]  
+[if][endif]  
+[link][endlink]
+
+Other tags in [autocomplete-an](https://github.com/SetoAira/autocomplete-an).  
+その他のタグは[autocomplete-an](https://github.com/SetoAira/autocomplete-an)にあります。

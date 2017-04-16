@@ -2,6 +2,9 @@
   "name": "language-an",
   "version": "0.1.1",
   "description": "Syntax highlighting for AIRnovel",
+  "keywords": [
+    "AIRNovel"
+  ],
   "repository": "https://github.com/SetoAira/language-an",
   "license": "MIT",
   "engines": {
